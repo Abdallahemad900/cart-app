@@ -7,6 +7,7 @@ import { fetchProducts } from '../slices/Products-slices';
 import { addToCart } from '../slices/Cart-slices';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
+import ProductsSlices from '../slices/Products-slices';
 
 function Product() {
   const allProducts = useSelector((state) => state.products);

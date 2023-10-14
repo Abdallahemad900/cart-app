@@ -29,7 +29,11 @@ function AppNav (){
 
               <Link to="/product" className="nav-link">Products</Link>
               <Link to="/cart" className="nav-link">Cart - {cart.length}</Link>
-              <Link to="/td" className="nav-link">3D viewport</Link>
+              <Link to="/td" className="nav-link">GLTF</Link>
+              <Link to="/fb" className="nav-link">FBX</Link>
+              <Link to="/women" className="nav-link">Women</Link>
+              <Link to="/anime" className="nav-link">anime</Link>
+              <Link to="/shoe" className="nav-link">Shoes Config</Link>
 
 
             </Nav>
